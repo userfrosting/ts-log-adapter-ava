@@ -14,3 +14,7 @@ temp/
 test-data/
 tsconfig.json
 .github
+coverage
+pnpm-lock.yaml
+.vscode
+cspell.json
