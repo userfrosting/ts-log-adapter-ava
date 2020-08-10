@@ -10,7 +10,8 @@
         "preversion",
         "postversion",
         "codecov",
-        "lcovonly"
+        "lcovonly",
+        "avajs"
     ],
     "ignorePaths": [
         "cspell.json",
