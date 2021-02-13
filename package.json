@@ -1,6 +1,6 @@
 {
     "name": "@userfrosting/ts-log-adapter-ava",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Plug ava test logging into ts-log compatible logging interfaces.",
     "funding": "https://opencollective.com/userfrosting",
     "type": "module",
