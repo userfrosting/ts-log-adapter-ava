@@ -20,7 +20,8 @@
         "docs/api/",
         "dist/",
         "temp/",
-        "docs/api-extractor/"
+        "docs/api-extractor/",
+        "pnpm-lock.yaml"
     ],
     "ignoreRegExpList": [
         "/Silic0nS0lider/"
