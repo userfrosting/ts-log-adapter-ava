@@ -1,10 +1,11 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    versioning-strategy: increase-if-necessary
-    # Needed until separate automerge logic in place
-    assignees:
-      - "Silic0nS0ldier"
+- package-ecosystem: npm
+  directory: /
+  schedule:
+    interval: weekly
+  versioning-strategy: increase-if-necessary
+- package-ecosystem: github-actions
+  directory: /
+  schedule:
+    interval: weekly
