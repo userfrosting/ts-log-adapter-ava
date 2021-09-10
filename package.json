@@ -39,6 +39,7 @@
         "ts-log": "^2.1.4"
     },
     "devDependencies": {
+        "@bazel/typescript": "^4.1.0",
         "@microsoft/api-documenter": "^7.8.22",
         "@microsoft/api-extractor": "^7.9.3",
         "@types/node": "^16.0.0",
