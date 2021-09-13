@@ -1,5 +1,5 @@
 load("@npm//@bazel/typescript:index.bzl", "ts_project")
-load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_test")
+load("//:ava_node_test.bzl", "ava_node_test")
 
 ts_project(
     name = "compile_ts",
@@ -16,12 +16,17 @@ ts_project(
     out_dir = "dist"
 )
 
-nodejs_test(
+ava_node_test(
     name = "test",
-    entry_point = "@npm//:node_modules/ava/cli.js",
-    data = [
+    ava_entry_point = ":ava_runner.js",
+    srcs = [
         ":compile_ts",
+        ":package.json",
+    ],
+    deps = [
         "@npm//ava",
-        ":package.json"
+        "@npm//c8",
+        "@npm//execa",
+        "@npm//resolve-bin",
     ],
 )

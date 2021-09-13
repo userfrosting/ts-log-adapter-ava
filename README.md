@@ -45,3 +45,7 @@ Generally speaking, all releases should first traverse through `alpha`, `beta`, 
 ## License
 
 [MIT](LICENSE)
+
+---
+
+`nodejs_test` does not like `.mjs`, it can cause runfile issues.
