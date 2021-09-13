@@ -13,7 +13,6 @@ ts_project(
     ],
     source_map = True,
     declaration = True,
-    out_dir = "dist"
 )
 
 ava_node_test(
