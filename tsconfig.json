@@ -11,6 +11,7 @@
         "declaration": true,
         "target": "es2017",
         "sourceMap": true,
-        "strict": true
+        "strict": true,
+        "inlineSources": true
     }
 }
