@@ -18,6 +18,7 @@ ts_project(
 ava_node_test(
     name = "test",
     ava_entry_point = ":ava_runner.js",
+    coverage = ":coverage.js",
     srcs = [
         ":compile_ts",
         ":package.json",
