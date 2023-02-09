@@ -12,5 +12,13 @@
     },
     "docModel": {
         "enabled": true
+    },
+    "messages": {
+        "extractorMessageReporting": {
+            // ava includes .d.cts which is too new for api-extractor
+            "ae-wrong-input-file-type": {
+                "logLevel": "none"
+            }
+        }
     }
 }
