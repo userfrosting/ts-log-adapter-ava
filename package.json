@@ -41,7 +41,7 @@
     "devDependencies": {
         "@microsoft/api-documenter": "^7.21.4",
         "@microsoft/api-extractor": "^7.34.3",
-        "@types/node": "^18.0.1",
+        "@types/node": "^20.1.0",
         "ava": "^5.1.1",
         "c8": "^7.3.0",
         "changelog-updater": "^2.0.1",
