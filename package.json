@@ -50,7 +50,7 @@
         "typescript": "^5.0.2"
     },
     "engines": {
-        "node": "^12.17.0 || >=13"
+        "node": ">=18"
     },
     "ava": {
         "files": [

@@ -14,9 +14,6 @@ npm i @userfrosting/ts-log-adapter-ava
 
 ## Usage
 
-> **IMPORTANT**<br/>
-> This is an ES module package targeting NodeJS `^12.17.0 || >=13.2.0`. Learn more at the [NodeJS ESM docs](https://nodejs.org/api/esm.html).
-
 ```js
 import test from "ava";
 import { logAdapter } from "@userfrosting/ts-log-adapter-ava";
