@@ -6,7 +6,24 @@
 
 ## Packages
 
-|  Package | Description |
-|  --- | --- |
-|  [@userfrosting/ts-log-adapter-ava](./ts-log-adapter-ava.md) |  |
+<table><thead><tr><th>
 
+Package
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+[@userfrosting/ts-log-adapter-ava](./ts-log-adapter-ava.md)
+
+
+</td><td>
+
+
+</td></tr>
+</tbody></table>
