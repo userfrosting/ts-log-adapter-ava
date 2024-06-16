@@ -6,7 +6,26 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [logAdapter(log)](./ts-log-adapter-ava.logadapter.md) | Maps lib logging to ava logging to assist debugging of failing tests. |
+<table><thead><tr><th>
 
+Function
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+[logAdapter(log)](./ts-log-adapter-ava.logadapter.md)
+
+
+</td><td>
+
+Maps lib logging to ava logging to assist debugging of failing tests.
+
+
+</td></tr>
+</tbody></table>

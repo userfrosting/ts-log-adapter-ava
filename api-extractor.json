@@ -5,20 +5,12 @@
     "apiReport": {
         "enabled": true,
         "reportFolder": "<projectFolder>/docs/api-extractor",
-        "reportFileName": "api-report.md"
+        "reportFileName": "api-report"
     },
     "dtsRollup": {
         "enabled": false
     },
     "docModel": {
         "enabled": true
-    },
-    "messages": {
-        "extractorMessageReporting": {
-            // ava includes .d.cts which is too new for api-extractor
-            "ae-wrong-input-file-type": {
-                "logLevel": "none"
-            }
-        }
     }
 }

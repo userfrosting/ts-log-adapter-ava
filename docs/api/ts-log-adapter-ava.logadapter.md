@@ -6,7 +6,7 @@
 
 Maps lib logging to ava logging to assist debugging of failing tests.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare function logAdapter(log: LogFn): TsLog.Logger;
@@ -14,11 +14,40 @@ export declare function logAdapter(log: LogFn): TsLog.Logger;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  log | LogFn | Log function from test execution context. |
+<table><thead><tr><th>
 
-<b>Returns:</b>
+Parameter
+
+
+</th><th>
+
+Type
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+log
+
+
+</td><td>
+
+LogFn
+
+
+</td><td>
+
+Log function from test execution context.
+
+
+</td></tr>
+</tbody></table>
+**Returns:**
 
 TsLog.Logger
 
