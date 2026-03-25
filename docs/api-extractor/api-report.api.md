@@ -5,11 +5,10 @@
 ```ts
 
 import { LogFn } from 'ava';
-import TsLog from 'ts-log';
+import type { Logger } from 'ts-log';
 
 // @public
-export function logAdapter(log: LogFn): TsLog.Logger;
-
+export function logAdapter(log: LogFn): Logger;
 
 // (No @packageDocumentation comment for this package)
 
