@@ -1,4 +1,4 @@
-import TsLog from "ts-log";
+import type { Logger } from "ts-log";
 import { LogFn } from "ava";
 
 /**
@@ -6,7 +6,7 @@ import { LogFn } from "ava";
  * @param log - Log function from test execution context.
  * @public
  */
-export function logAdapter(log: LogFn): TsLog.Logger {
+export function logAdapter(log: LogFn): Logger {
     return {
         /* c8 ignore next 2 */
         debug(...optionalParams) {

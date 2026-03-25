@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       ts-log:
-        specifier: ^2.1.4
-        version: 2.2.7
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@microsoft/api-documenter':
         specifier: ^7.21.4
@@ -1374,8 +1374,9 @@ packages:
     resolution: {integrity: sha512-jRKj0n0jXWo6kh62nA5TEh3+4igKDXLvzBJcPpiizP7oOolUrYIxmVBG9TOtHYFHoddUk6YvAkGeGoSVTXfQXQ==}
     engines: {node: '>=12'}
 
-  ts-log@2.2.7:
-    resolution: {integrity: sha512-320x5Ggei84AxzlXp91QkIGSw5wgaLT6GeAH0KsqDmRZdVWW2OiSeVvElVoatk3f7nicwXlElXsoFkARiGE2yg==}
+  ts-log@3.0.0:
+    resolution: {integrity: sha512-dOh2B+XwtPsIt+bOy0krUiGGO9fbqUCrR4nkNNir/EObVmEJYd4q6KkfF2Ni8/QG1Lji3JwX8TrTa7LHftPWsA==}
+    engines: {node: '>=20'}
 
   type-fest@0.13.1:
     resolution: {integrity: sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==}
@@ -2806,7 +2807,7 @@ snapshots:
 
   trim-newlines@4.1.1: {}
 
-  ts-log@2.2.7: {}
+  ts-log@3.0.0: {}
 
   type-fest@0.13.1: {}
 

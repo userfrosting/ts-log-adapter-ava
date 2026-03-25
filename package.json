@@ -36,7 +36,7 @@
         "url": "https://github.com/userfrosting/ts-log-adapter-ava/issues"
     },
     "dependencies": {
-        "ts-log": "^2.1.4"
+        "ts-log": "^3.0.0"
     },
     "devDependencies": {
         "@microsoft/api-documenter": "^7.21.4",
