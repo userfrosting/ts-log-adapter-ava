@@ -47,7 +47,7 @@
         "changelog-updater": "^2.0.1",
         "cspell": "^10.0.0",
         "is-npm-cli": "^2.0.0",
-        "typescript": "^5.0.2"
+        "typescript": "^6.0.3"
     },
     "engines": {
         "node": ">=22"
@@ -59,3 +59,4 @@
         ]
     }
 }
+           
