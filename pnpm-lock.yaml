@@ -10,7 +10,7 @@ importers:
     dependencies:
       ts-log:
         specifier: ^3.0.0
-        version: 3.0.0
+        version: 3.0.2
     devDependencies:
       '@microsoft/api-documenter':
         specifier: ^7.21.4
@@ -368,14 +368,6 @@ packages:
   '@rushstack/rig-package@0.7.3':
     resolution: {integrity: sha512-aAA518n6wxxjCfnTAOjQnm7ngNE0FVHxHAw2pxKlIhxrMn0XQjGcXKF0oKWpjBgJOmsaJpVob/v+zr3zxgPWuA==}
 
-  '@rushstack/terminal@0.23.0':
-    resolution: {integrity: sha512-7FfI9irLqnBDxCvMEXdEXLDjaouZsGbKkeGfmW8IOn8aYi7DV9aaXaEQHCcVxWMvEDOkuTf4y6RMDgIY5CFuUQ==}
-    peerDependencies:
-      '@types/node': '*'
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-
   '@rushstack/terminal@0.24.0':
     resolution: {integrity: sha512-8ZQS4MMaGsv27EXCBiH7WMPkRZrffeDoIevs6z9TM5dzqiY6+Hn4evfK/G+gvgBTjfvfkHIZPQQmalmI2sM4TQ==}
     peerDependencies:
@@ -383,9 +375,6 @@ packages:
     peerDependenciesMeta:
       '@types/node':
         optional: true
-
-  '@rushstack/ts-command-line@5.3.8':
-    resolution: {integrity: sha512-vKL4fVR2TdnMdCmlP71nZUzbNANOYlR7NfN+J/YL9UIvicDIEB+ZtH38LcJECOZUwHia8C5Mg98kc4kPt/ev5w==}
 
   '@rushstack/ts-command-line@5.3.9':
     resolution: {integrity: sha512-GIHqU+sRGQ3LGWAZu1O+9Yh++qwtyNIIGuNbcWHJjBTm2qRez0cwINUHZ+pQLR8UuzZDcMajrDaNbUYoaL/XtQ==}
@@ -1360,9 +1349,9 @@ packages:
     resolution: {integrity: sha512-jRKj0n0jXWo6kh62nA5TEh3+4igKDXLvzBJcPpiizP7oOolUrYIxmVBG9TOtHYFHoddUk6YvAkGeGoSVTXfQXQ==}
     engines: {node: '>=12'}
 
-  ts-log@3.0.0:
-    resolution: {integrity: sha512-dOh2B+XwtPsIt+bOy0krUiGGO9fbqUCrR4nkNNir/EObVmEJYd4q6KkfF2Ni8/QG1Lji3JwX8TrTa7LHftPWsA==}
-    engines: {node: '>=20'}
+  ts-log@3.0.2:
+    resolution: {integrity: sha512-esq6hx2lM66sQV1YcFkIYTqrWWabmqBqobKHyn1CswdI5FgfQhkmiKiRWVGBNlIbdjBxEIkNvMIwLKKPgRYZLQ==}
+    engines: {node: '>=20', npm: '>=10'}
 
   type-fest@0.13.1:
     resolution: {integrity: sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==}
@@ -1826,14 +1815,6 @@ snapshots:
       jju: 1.4.0
       resolve: 1.22.12
 
-  '@rushstack/terminal@0.23.0(@types/node@25.6.0)':
-    dependencies:
-      '@rushstack/node-core-library': 5.23.1(@types/node@25.6.0)
-      '@rushstack/problem-matcher': 0.2.1(@types/node@25.6.0)
-      supports-color: 8.1.1
-    optionalDependencies:
-      '@types/node': 25.6.0
-
   '@rushstack/terminal@0.24.0(@types/node@25.6.0)':
     dependencies:
       '@rushstack/node-core-library': 5.23.1(@types/node@25.6.0)
@@ -1841,15 +1822,6 @@ snapshots:
       supports-color: 8.1.1
     optionalDependencies:
       '@types/node': 25.6.0
-
-  '@rushstack/ts-command-line@5.3.8(@types/node@25.6.0)':
-    dependencies:
-      '@rushstack/terminal': 0.23.0(@types/node@25.6.0)
-      '@types/argparse': 1.0.38
-      argparse: 1.0.10
-      string-argv: 0.3.2
-    transitivePeerDependencies:
-      - '@types/node'
 
   '@rushstack/ts-command-line@5.3.9(@types/node@25.6.0)':
     dependencies:
@@ -2785,7 +2757,7 @@ snapshots:
 
   trim-newlines@4.1.1: {}
 
-  ts-log@3.0.0: {}
+  ts-log@3.0.2: {}
 
   type-fest@0.13.1: {}
 
