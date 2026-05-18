@@ -23,7 +23,7 @@ importers:
         version: 25.6.2
       ava:
         specifier: ^8.0.0
-        version: 8.0.0
+        version: 8.0.1
       c8:
         specifier: ^11.0.0
         version: 11.0.0
@@ -288,6 +288,10 @@ packages:
     resolution: {integrity: sha512-q+0pHQ8DbqjemyaOn/mTtBRbCuKDqhnsVbZ6J9zkTsxPgMpccjy0s5oLXwomfrrxMRBH+UcbERwtUmE+SbnoIQ==}
     engines: {node: '>=22.18.0'}
 
+  '@cto.af/wtf8@0.0.5':
+    resolution: {integrity: sha512-LfUFi+Vv4eDzj+XAtR89e3wwjXA/NZjUSwU5NhwbBrLecxPaBYFy3exCuc1j+D4UZeOVdqlsl8G7LmOt18V0tg==}
+    engines: {node: '>=20'}
+
   '@isaacs/fs-minipass@4.0.1':
     resolution: {integrity: sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w==}
     engines: {node: '>=18.0.0'}
@@ -491,9 +495,9 @@ packages:
   async-sema@3.1.1:
     resolution: {integrity: sha512-tLRNUXati5MFePdAk8dw7Qt7DpxPB60ofAgn8WRhW6a2rcimZnYBP9oxHiv0OHy+Wz7kPMG+t4LGdt31+4EmGg==}
 
-  ava@8.0.0:
-    resolution: {integrity: sha512-KMUyT3LcnZ/5ipDAqnTGn6PQUvr1Jk4dex3v7ieQrGaMlAblfIpMLwK56HfPcObvJEzyhCWXfZjbM98FeAy0oQ==}
-    engines: {node: ^22.20 || ^24.12 || >=25}
+  ava@8.0.1:
+    resolution: {integrity: sha512-YlwwL5HX2EJRE75e2LR8nio8lKAJ702sFbv0QYnhzngAjyo9wB+Xg4JZh5f432khlWfVD5OQ93rrRopEXJptpg==}
+    engines: {node: ^22.20 || ^24.12 || >=26}
     hasBin: true
     peerDependencies:
       '@ava/typescript': '*'
@@ -541,8 +545,8 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  cbor@10.0.12:
-    resolution: {integrity: sha512-exQDevYd7ZQLP4moMQcZkKCVZsXLAtUSflObr3xTh4xzFIv/xBCdvCd6L259kQOUP2kcTC0jvC6PpZIf/WmRXA==}
+  cbor2@2.3.0:
+    resolution: {integrity: sha512-76WB3hq8BoaGkMkBVJ27fW5LJU+qqDLEpgRNCG/SYKhODWXpVPOTD4UcUto3IEzYLA52nsvbhb0wabhHDn3qXg==}
     engines: {node: '>=20'}
 
   chalk-template@1.1.2:
@@ -1016,8 +1020,8 @@ packages:
   lodash@4.18.1:
     resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
-  lru-cache@11.3.6:
-    resolution: {integrity: sha512-Gf/KoL3C/MlI7Bt0PGI9I+TeTC/I6r/csU58N4BSNc4lppLBeKsOdFYkK+dX0ABDUMJNfCHTyPpzwwO21Awd3A==}
+  lru-cache@11.4.0:
+    resolution: {integrity: sha512-W+R+kFL4HgVxONq2bhXPi3bGpzGe/yEhVOp233qw9wCRtgncJ15P3bC+e4zZMu4Cq7d+WAJjXGW0uUkifhcatA==}
     engines: {node: 20 || >=22}
 
   lru-cache@6.0.0:
@@ -1099,10 +1103,6 @@ packages:
   node-gyp-build@4.8.4:
     resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
     hasBin: true
-
-  nofilter@3.1.0:
-    resolution: {integrity: sha512-l2NNj07e9afPnhAhvgVrCD/oy2Ai1yfLpuo3EpiO1jFTsB4sFz6oIfAfSZyQzVpkZQ9xS8ZS5g1jCBgq4Hwo0g==}
-    engines: {node: '>=12.19'}
 
   nopt@8.1.0:
     resolution: {integrity: sha512-ieGu42u/Qsa4TFktmaKEwM6MQH0pOWnaB3htzh0JRtx84+Mebc0cbZYN5bC+6WTZ4+77xrL9Pn5m7CV6VIkV7A==}
@@ -1705,6 +1705,8 @@ snapshots:
 
   '@cspell/url@10.0.0': {}
 
+  '@cto.af/wtf8@0.0.5': {}
+
   '@isaacs/fs-minipass@4.0.1':
     dependencies:
       minipass: 7.1.3
@@ -1929,7 +1931,7 @@ snapshots:
 
   async-sema@3.1.1: {}
 
-  ava@8.0.0:
+  ava@8.0.1:
     dependencies:
       '@vercel/nft': 1.5.0
       acorn: 8.16.0
@@ -1938,7 +1940,7 @@ snapshots:
       arrgv: 1.0.2
       arrify: 3.0.0
       callsites: 4.2.0
-      cbor: 10.0.12
+      cbor2: 2.3.0
       chalk: 5.6.2
       chunkd: 2.0.1
       ci-info: 4.4.0
@@ -2017,9 +2019,9 @@ snapshots:
 
   camelcase@6.3.0: {}
 
-  cbor@10.0.12:
+  cbor2@2.3.0:
     dependencies:
-      nofilter: 3.1.0
+      '@cto.af/wtf8': 0.0.5
 
   chalk-template@1.1.2:
     dependencies:
@@ -2456,7 +2458,7 @@ snapshots:
 
   lodash@4.18.1: {}
 
-  lru-cache@11.3.6: {}
+  lru-cache@11.4.0: {}
 
   lru-cache@6.0.0:
     dependencies:
@@ -2534,8 +2536,6 @@ snapshots:
 
   node-gyp-build@4.8.4: {}
 
-  nofilter@3.1.0: {}
-
   nopt@8.1.0:
     dependencies:
       abbrev: 3.0.1
@@ -2579,7 +2579,7 @@ snapshots:
 
   path-scurry@2.0.2:
     dependencies:
-      lru-cache: 11.3.6
+      lru-cache: 11.4.0
       minipass: 7.1.3
 
   picocolors@1.1.1: {}
