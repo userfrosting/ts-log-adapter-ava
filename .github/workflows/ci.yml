@@ -27,7 +27,7 @@ jobs:
     - uses: pnpm/action-setup@v6
     - run: pnpm install
     - run: pnpm exec c8 --reporter=lcovonly pnpm test
-    - uses: codecov/codecov-action@v6.0.0
+    - uses: codecov/codecov-action@v6.0.1
       with:
         token: ${{ secrets.CODECOV_UPLOAD_TOKEN }}
 
