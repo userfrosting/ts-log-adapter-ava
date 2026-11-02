@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@microsoft/api-documenter':
         specifier: ^7.21.4
-        version: 7.30.18(@types/node@26.6.6)
+        version: 7.30.19(@types/node@26.6.6)
       '@microsoft/api-extractor':
         specifier: ^7.34.3
         version: 7.59.4(@types/node@26.6.6)
@@ -315,8 +315,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  '@microsoft/api-documenter@7.30.18':
-    resolution: {integrity: sha512-HbmyutE7u6JQ6GYn4dxyDDfoFKdLjHOvCcbRGSkz+wfWJcKxYzpG/G3kSsmZgW+4JMeTh3u36usiwAbHvmhlhA==}
+  '@microsoft/api-documenter@7.30.19':
+    resolution: {integrity: sha512-LuKurf1uBwQUGrrFa/tWJmw6S1Hd6OYJR3gQwCh6CIW7V+rI7qzSEoRnAU/inHLJnT9ggo90T0aVZqE2UvbpVQ==}
     engines: {node: '>=20.9.0'}
     hasBin: true
 
@@ -881,8 +881,8 @@ packages:
     resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
     engines: {node: '>=8.6.0'}
 
-  fast-uri@3.1.8:
-    resolution: {integrity: sha512-GZMtZUTNRpOVIECoXwLNZS5xUGE+mVNbTB8h/7Rwh2TFWcBQiPzTgyZi05BF9UMZKkLJv8XBRJTlU7zg8+ZfMg==}
+  fast-uri@3.1.9:
+    resolution: {integrity: sha512-hS/0Wt3Ya043oKXs0sIxrMpKQITXhMLIrVAKKXi4gozGC9v7YRWVnXIZzjNPTO02M9BdxLCWqK1yRXgNziVyJQ==}
 
   fastq@1.20.3:
     resolution: {integrity: sha512-XKv5nnLs6nLF71NgiKJLIZFLkPyIEuOselLG7ujZnGrRfQK8HpvY+WqKhAJUAdLomwVHErVS4LfxFlPq0/FTAw==}
@@ -1820,7 +1820,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@microsoft/api-documenter@7.30.18(@types/node@26.6.6)':
+  '@microsoft/api-documenter@7.30.19(@types/node@26.6.6)':
     dependencies:
       '@microsoft/api-extractor-model': 7.33.15(@types/node@26.6.6)
       '@microsoft/tsdoc': 0.17.1
@@ -2044,14 +2044,14 @@ snapshots:
   ajv@8.18.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.8
+      fast-uri: 3.1.9
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
   ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.8
+      fast-uri: 3.1.9
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -2390,7 +2390,7 @@ snapshots:
       merge2: 1.4.1
       micromatch: 4.0.8
 
-  fast-uri@3.1.8: {}
+  fast-uri@3.1.9: {}
 
   fastq@1.20.3:
     dependencies:
